@@ -12,6 +12,7 @@ function saveName() {
    const nameToSave = usernameInput.value;
    localStorage.setItem("username",nameToSave);
    displayParagraph.textContent = nameToSave;
+   usernameInput.value = ""
 }
 
 function clearName() {
